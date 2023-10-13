@@ -1,0 +1,16 @@
+body {background-color: rgb(146, 213, 213);}
+h1 {float: center;}
+nav {font-size: larger;}
+nav {float: right;}
+img {size-adjust: 300 x 200;}
+p {}
+
+/* #bazaar {
+    display: flex; 
+    align-items: center;
+} */
+
+.bazaar {
+    display: flex; 
+    align-items: center;
+}
