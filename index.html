@@ -7,85 +7,45 @@
 
   <link rel="stylesheet" href="style.css">
   <title>Travel Agency</title>
-  <script src="script.js"></script>
-  <style>
-    /* CSS for various sections */
-    header {
-      background-color: #5fd0c7;
-      color: #FFFFFF;
-      display: flex;
-      justify-content: space-between;
-      padding: 20px;
-    }
-
-    nav {
-      display: flex;
-      padding: 10px;
-      gap: 20px;
-      margin-top: auto;
-    }
-
-    nav a {
-      display: inline;
-      padding: 20px;
-      border-radius: 25px;
-      background: #1af3ae;
-    }
-
-    main {
-      background-color: #87dcd9;
-      color: #FFFFFF;
-    }
-
-    section.content-cont {
-      background-color: #85cd19;
-      color: #FFFFFF;
-      width: 100%;
-      display: flex;
-      align-items: center;
-    }
-
-    section.content-container:nth-child(even) {
-      flex-direction: row-reverse;
-    }
-
-    section.paragraph-container {
-      flex: 1;
-      padding: 20px;
-    }
-
-    section.image-container {
-      flex: 1;
-      padding: 20px;
-      border-radius: 25px;
-      background: #21AD9A;
-    }
-
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-
-    section.text-container {
-      background-color: rgb(45, 52, 145);
-      font-style: oblique;
-    }
-  </style>
 </head>
 
 <body>
-  <header>
+
+  <script>
+
+    alert('Welcome to the Advanture Awaits');
+
+    const usersanswers = prompt('Are you ready to take some adventures, please let us know if the answer is yes or no?');
+
+    console.log('user typed: ' + usersanswers);
+
+    document.write('If you want to take some adventures, you are in the right place!');
+    if (usersanswers == 'yes') {
+      document.write('Let us give you a tour');
+    } else if(usersanswers == 'yes please') {
+document.write('of course...')
+    }
+    else {
+      document.write('see you soon...');
+    }
+  </script>
+   <header>
     <h1>Adventure Awaits</h1>
 
     <nav><a href="https://latheriok0818.github.io/hello-world/">Link to partner's page</a></nav>
+    <script>
+      let usersname = prompt('What is your name?');
+      console.log(usersname);
+      document.write("Happy to see you here" + usersname);
+    </script>
     <div>
   </header>
-  <section class="image-container">
-    <img
-      src="https://www.wallart.com/media/catalog/product/cache/871f459736130e239a3f5e6472128962/e/e/een-prachtige-hawaiiaanse-zonsondergang-op-fotobehang_8.jpg"
-      alt=Hawaii>
-  </section>
   <main>
+    <section id="image-hawaii">
+      <img
+        src="https://www.wallart.com/media/catalog/product/cache/871f459736130e239a3f5e6472128962/e/e/een-prachtige-hawaiiaanse-zonsondergang-op-fotobehang_8.jpg"
+        alt=Hawaii>
+    </section>
     <section class="bazaar">
       <section class="image-container">
         <img src="https://live.staticflickr.com/176/376941135_13c53eebc4_b.jpg" alt="Grand Bazaar">
@@ -111,22 +71,25 @@
 
     <section class="bazaar">
       <section class="image-container">
-      <section>
-        <p>
-          Cancún, situated on the northeastern coast of Mexico's Yucatán Peninsula, is a world-renowned tropical
-          paradise
-          known for its pristine white-sand beaches, crystal-clear turquoise waters, and vibrant nightlife. What was
-          once
-          a sleepy fishing village has transformed into a bustling resort city, attracting travelers from around the
-          globe. Cancún's allure lies in its stunning natural beauty, including the nearby ancient Mayan ruins of Tulum
-          and Chichen Itza, as well as the breathtaking coral reefs of the Mesoamerican Barrier Reef System. Visitors
-          can
-          partake in water sports, explore underwater wonders while snorkeling or diving, or simply relax on the idyllic
-          shores. The city also offers a dynamic nightlife scene, with a plethora of restaurants, bars, and nightclubs,
-          making it a hub for entertainment and culinary delights. Cancún seamlessly blends modern luxury with the
-          cultural heritage of Mexico, making it an enticing destination for both relaxation and adventure.
-        </p>
-      </section>
+        <section>
+          <p>
+            Cancún, situated on the northeastern coast of Mexico's Yucatán Peninsula, is a world-renowned tropical
+            paradise
+            known for its pristine white-sand beaches, crystal-clear turquoise waters, and vibrant nightlife. What was
+            once
+            a sleepy fishing village has transformed into a bustling resort city, attracting travelers from around the
+            globe. Cancún's allure lies in its stunning natural beauty, including the nearby ancient Mayan ruins of
+            Tulum
+            and Chichen Itza, as well as the breathtaking coral reefs of the Mesoamerican Barrier Reef System. Visitors
+            can
+            partake in water sports, explore underwater wonders while snorkeling or diving, or simply relax on the
+            idyllic
+            shores. The city also offers a dynamic nightlife scene, with a plethora of restaurants, bars, and
+            nightclubs,
+            making it a hub for entertainment and culinary delights. Cancún seamlessly blends modern luxury with the
+            cultural heritage of Mexico, making it an enticing destination for both relaxation and adventure.
+          </p>
+        </section>
       </section>
       <section class="image-container">
         <img src="https://lh5.googleusercontent.com/p/AF1QipM0_6_O_FNdYl3lo68Go7a5askqGXE1gNeXz4-z=w548-h310"
