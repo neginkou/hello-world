@@ -10,34 +10,11 @@
 </head>
 
 <body>
-
-  <script>
-
-    alert('Welcome to the Advanture Awaits');
-
-    const usersanswers = prompt('Are you ready to take some adventures, please let us know if the answer is yes or no?');
-
-    console.log('user typed: ' + usersanswers);
-
-    document.write('If you want to take some adventures, you are in the right place!');
-    if (usersanswers == 'yes') {
-      document.write('Let us give you a tour');
-    } else if(usersanswers == 'yes please') {
-document.write('of course...')
-    }
-    else {
-      document.write('see you soon...');
-    }
-  </script>
-   <header>
+  <script src="script.js"></script>
+  <header>
     <h1>Adventure Awaits</h1>
 
     <nav><a href="https://latheriok0818.github.io/hello-world/">Link to partner's page</a></nav>
-    <script>
-      let usersname = prompt('What is your name?');
-      console.log(usersname);
-      document.write("Happy to see you here" + usersname);
-    </script>
     <div>
   </header>
   <main>
@@ -45,6 +22,9 @@ document.write('of course...')
       <img
         src="https://www.wallart.com/media/catalog/product/cache/871f459736130e239a3f5e6472128962/e/e/een-prachtige-hawaiiaanse-zonsondergang-op-fotobehang_8.jpg"
         alt=Hawaii>
+        <script>const usersname = askname(theiranswers);</script>
+        <script>askage();</script>
+        <script>specialmessage(theiranswers)</script>
     </section>
     <section class="bazaar">
       <section class="image-container">
@@ -119,6 +99,7 @@ document.write('of course...')
 </body>
 
 <footer>
+  <script>askquestion();</script>
   <p style="text-align: center;"> Negin &copy; 2023</p>
 </footer>
 
