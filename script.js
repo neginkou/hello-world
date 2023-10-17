@@ -19,7 +19,7 @@ function askage() {
     // }
 }
 
-function specialmessage() {
+function advantures() {
     document.write('If you want to take some adventures, you are in the right place!');
 }
 function askquestion() {
@@ -33,7 +33,7 @@ function askquestion() {
         usersanswers = prompt('Are you sure you do not to take this advanture?');
     }
     else if (usersanswers == 'yes') {
-        document.write('Let us give you a tour');
+        document.write('Let us give you a tour ' );
     } else if (usersanswers == 'yes please') {
         document.write('of course...');
     }
@@ -43,21 +43,18 @@ function askquestion() {
 }
 function destination() {
     let userdestination = prompt("Where do you want to travel?");
-    while (userdestination != 'Istanbul')
-        while (userdestination != 'Mexico')
-            while (userdestination != 'New York') {
-                userdestination = prompt("Plaese try again!");
-            }
+    while (userdestination != 'Istanbul') {
+        userdestination = prompt("Plaese try again!");
+    }
     alert('Have a nice trip!')
 }
-function rateus(){
+function rateus() {
     let userrate = prompt("How do you rate us, between 1 to 10?");
-    for (let i = 1; i<= userrate; i++){
-        document.write("Enjoy!" + i);
-    }
+    for (let i = 1; i <= userrate; i++) {
+        document.write('<img src="https://img.freepik.com/free-vector/palm-trees-against-sunset-sky_1048-7507.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1697328000&semt=ais" alt="sunset">' );
 }
 
-
+}
 
 
 
